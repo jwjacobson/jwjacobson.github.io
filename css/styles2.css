@@ -33,11 +33,7 @@ nav li a{
 }
 
 nav li a:hover:not(.active) {
-    /* color:darkslateblue; */
-    /* background-color: coral; */
-    border-left: 1px solid aquamarine;
-    border-right: 1px solid aquamarine;
-    right: 1px;
+    outline: 1px solid aquamarine;
   }
 
  .active {
