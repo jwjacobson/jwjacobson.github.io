@@ -26,6 +26,7 @@ nav li{
 nav li a{
     display: block;
     color:coral;
+    position: relative;
     text-align: center;
     padding: 32px 32px;
     text-decoration: none;
@@ -36,6 +37,7 @@ nav li a:hover:not(.active) {
     /* background-color: coral; */
     border-left: 1px solid aquamarine;
     border-right: 1px solid aquamarine;
+    right: 1px;
   }
 
  .active {
