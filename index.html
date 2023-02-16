@@ -21,46 +21,39 @@
             <h1 style="font-size:50px;">Jeff Jacobson</h1>
          </div>
     </div>
-    <div id="aboutme">
+    <div class="pictures">
         <figure class="figures">
-        <img class="photos" src="./images/me.jpg" alt="A man sitting on a futon, reading a paperback while holding a baby who is drinking from a bottle">
+        <img class="photos" src="./images/me.jpg" alt="A man sitting on a messy futon, reading a paperback while holding a baby who is drinking from a bottle and looking at the camera">
         <figcaption class="caption">At home with Toby</figcaption>
         </figure>
         <figure class="figures">
-        <img class="photos" src="./images/feb 2020.jpg" alt="A man and woman sitting at a table at an outdoor street food stall, smiling at the camera while some pedestrians walk past">
+        <img class="photos" src="./images/feb 2020.jpg" alt="A man and woman sitting at a table at an outdoor street food stall, smiling at the camera while some pedestrians walk past";>
         <figcaption class="caption">Eating <em>nasi campur</em> with Lisa in Glodok, Jakarta's Chinatown</figcaption>
         </figure>
+        <!-- If I started again I'd use CSS grid and lay everything out nice from the beginning, but as it is I'm going with this, which at least works at 100% zoom on my Chrome -->
+        <aside id="side">
+            <h3>Send me a message:</h3>
+                 <form action="mailto:goodbyemrevans@gmail.com" method="POST">
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name" placeholder="Your Name" style="background-color: coral;">
+                    <br>
+                    <label for="body"><strong>Message</strong></label>
+                    <br>
+                    <textarea id="body" placeholder="Your Message" rows="5" style="background-color: coral;"></textarea>
+                    <br>
+                    <button type="submit" style="background-color: coral; color: darkslateblue">Submit</button>
+                    </form>
+        </aside>
+
         <figure class="figures">
-        <img class="photos" src="./images/jan 2017 7.jpg" alt="A man and woman standing in front of a mountainous green landscape">
+        <img class="photos" src="./images/jan 2017 7.jpg" alt="A man and woman standing in front of a mountainous green landscape" style="order: 2;">
         <figcaption class="caption">In Toraja, enjoying the view with Lisa</figcaption>
         </figure>
         <figure class="figures">
-        <img class="photos" src="./images/2.jpg" alt="A man and woman sitting on a wodden platform, drinking coffee">
+        <img class="photos" src="./images/2.jpg" alt="A man and woman sitting on a wodden platform, drinking coffee" style="order: 2;">
         <figcaption class="caption">In Toraja, relaxing with Lisa</figcaption>
         </figure>
-    </div>
-    <!-- <div id="side">
-        <h3>Send me a message:</h3>
-             <form action="mailto:goodbyemrevans@gmail.com" method="POST">
-                <label for="name"><strong>Name</strong></label>
-                <br>
-                <input type="text" id="name" placeholder="Your Name">
-                <br>
-                <label for="body"><strong>Message</strong></label>
-                <br>
-                <textarea id="body" placeholder="Your Message" rows="5"></textarea>
-                <br>
-                <button type="submit">Submit</button>
-                </form>
-     </div> -->
-      -->
-    <!-- <footer>
-        <div>
-            &copy Jeff Jacobson 2023
-        </div>
-    </footer>
- -->
-
-
+   </div>
 </body>
 </html>

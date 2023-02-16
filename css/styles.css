@@ -1,5 +1,3 @@
-/* * { border: 1px solid red; } */
-
 body, html{
     height: 100%;
     margin: 0px;
@@ -57,7 +55,7 @@ nav li a:hover:not(.active) {
     border-bottom: 1px solid aquamarine;
     margin-left: 4px;
     margin-right: 4px;
-    
+    margin-top: 16px;
 }
 
 .hero-text{
@@ -69,12 +67,11 @@ nav li a:hover:not(.active) {
     left: 16px;
 } 
 
-#aboutme {
+.pictures {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
-    border: 1px solid coral;
-    outline: 0.5px solid aquamarine;
+    width: 1500px;
+    
     margin: 4px;
     padding: 4px;
 }
@@ -88,75 +85,16 @@ nav li a:hover:not(.active) {
 
 .caption {
     color: coral;
-    /* border-top: 1px solid aquamarine */
 }
 
-.figures {
-    /* outline: 1px solid aquamarine */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #side{
-   
-    width: 20%;
-    float: right;
-    height: 100%;
-    margin-top: -35px;
-    padding: 20px;
+#side {
+    display: inline;
+    width: 200px;
+    height: 300px;
+    margin-top: 16px;
+    margin-left: 10px;
+    padding: 50px;
+    border: 1px solid coral;
+    outline: 0.5px solid aquamarine;
     color: coral;
-    border: 1px solid darkslateblue;
-    outline: 1px solid coral;
 }
-
-form{
-    margin-top: 20px;
-}
-
-textarea, input{
-    color: darkslateblue;
-    background-color:coral;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-}
-
-#tryagaintomorrow{
-    color: coral;
-} */
-
-/* 
-footer {
-    bottom: 0px;
-    width: 100%;
-    background-color: coral;
-    height: 5vh;
-    margin-top: 0px;
-}
-
-footer hr{
-    margin-top: 0px;
-    height: 12px;
-    border: 0px;
-    /* box-shadow: inset 0px 12px 12px -12px white;
-} 

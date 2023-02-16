@@ -49,20 +49,20 @@ nav li a:hover:not(.active) {
   }
   
   div.gallery:hover {
-    border: 1px solid coral;
+    border: 1px solid aquamarine;
   }
   
   div.gallery img {
     width: 100%;
     height: auto;
+    margin: 40px auto;
       }
   
   div.desc {
     padding: 15px;
     text-align: center;
     color:coral;
-    font-size: larger;
-    margin-top: 10%;
+    font-size: x-large;
     margin-bottom: 10%;
   }
 
@@ -73,7 +73,6 @@ nav li a:hover:not(.active) {
     margin-bottom: 8px;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-    /* border-radius: 10px; */
     background-color: coral;
     color: darkslateblue;
     border: solid 1px darkslateblue;
@@ -104,20 +103,3 @@ nav li a:hover:not(.active) {
     from {background-color: darkslateblue; border: 1px solid aquamarine;}
     to {background-color: coral; border:1px solid darkslateblue;}
   }
-
-
-
-/* footer {
-    bottom: 0px;
-    width: 100%;
-    background-color: darkolivegreen;
-    height: 5vh;
-    margin-top: 0px;
-}
-
-footer hr{
-    margin-top: 0px;
-    height: 12px;
-    border: 0px;
-    box-shadow: inset 0px 12px 12px -12px white;
-} */
